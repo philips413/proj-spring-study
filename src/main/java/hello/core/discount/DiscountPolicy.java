@@ -7,6 +7,6 @@ public interface DiscountPolicy {
      *
      * @return 할인 정책
      */
-    int discoint(Member member, int price);
+    int discount(Member member, int price);
 
 }
